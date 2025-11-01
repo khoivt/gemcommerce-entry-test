@@ -40,13 +40,13 @@ const UnitInput: React.FC<UnitInputProps> = ({
           aria-label="Decrement value"
         >
           <span
-            className={`w-5 h-5 bg-gray-50 group-disabled/minus:bg-gray-200`}
+            className={`w-5 h-5 mask-[url('/assets/ic_minus.svg')] bg-gray-50 group-disabled/minus:bg-gray-200`}
             style={{
-              maskImage: "url('/src/assets/ic_minus.svg')",
+              maskImage: "url('/assets/ic_minus.svg')",
               maskSize: "contain",
               maskRepeat: "no-repeat",
               maskPosition: "center",
-              WebkitMaskImage: "url('/src/assets/ic_minus.svg')",
+              WebkitMaskImage: "url('/assets/ic_minus.svg')",
               WebkitMaskSize: "contain",
               WebkitMaskRepeat: "no-repeat",
               WebkitMaskPosition: "center",
@@ -82,11 +82,11 @@ const UnitInput: React.FC<UnitInputProps> = ({
           <span
             className={`w-5 h-5 bg-gray-50 group-disabled/plus:bg-gray-200`}
             style={{
-              maskImage: "url('/src/assets/ic_plus.svg')",
+              maskImage: "url('/assets/ic_plus.svg')",
               maskSize: "contain",
               maskRepeat: "no-repeat",
               maskPosition: "center",
-              WebkitMaskImage: "url('/src/assets/ic_plus.svg')",
+              WebkitMaskImage: "url('/assets/ic_plus.svg')",
               WebkitMaskSize: "contain",
               WebkitMaskRepeat: "no-repeat",
               WebkitMaskPosition: "center",
