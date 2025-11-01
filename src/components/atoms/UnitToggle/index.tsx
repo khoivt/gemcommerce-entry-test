@@ -19,7 +19,7 @@ const UnitToggle: React.FC<UnitToggleProps> = ({ value, onChange }) => {
         <button
           key={unit.value}
           onClick={() => onChange(unit.value)}
-          className={`flex-1 h-8 rounded-[6px] text-xs font-medium transition-colors ${
+          className={`flex-1 h-8 rounded-[6px] text-xs font-medium cursor-pointer transition-colors ${
             value === unit.value
               ? "bg-gray-100 text-gray-50"
               : "text-gray-200 hover:text-gray-50"
